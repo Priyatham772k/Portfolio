@@ -5,10 +5,9 @@ body {
     background-color: #f8f9fa;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+.transparent-navbar {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none;
 }
 
 #intro {
@@ -40,15 +39,21 @@ header {
     text-align: center;
 }
 
-.intro-content h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
+.intro-content h1, .intro-content p {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.intro-content p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
 }
 
 .intro-content .btn {
