@@ -5,51 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Nagapriyatham Pindi</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Nagapriyatham Pindi</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Nagapriyatham Pindi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="container mt-5 pt-5">
         <section id="projects">
-            <h2>Projects</h2>
+            <h2 class="text-center">Projects</h2>
             <div class="project">
                 <h3>New York Airbnb Price Analysis</h3>
                 <p>Developed interactive dashboards to analyze and visualize over 50,000 price listings and extracted key trends and insights that resulted in 15% more engagement and understanding of the data.</p>
-                <a href="https://github.com/your-github-repo" class="btn">View on GitHub</a>
+                <a href="https://github.com/your-github-repo" class="btn btn-primary">View on GitHub</a>
             </div>
             <div class="project">
                 <h3>Motor Vehicle Collision Analysis</h3>
                 <p>Developed a robust data architecture and ETL workflows using Talend and Alteryx to integrate and analyze collision data, improving data accessibility and reliability.</p>
-                <a href="https://github.com/your-github-repo" class="btn">View on GitHub</a>
+                <a href="https://github.com/your-github-repo" class="btn btn-primary">View on GitHub</a>
             </div>
             <div class="project">
                 <h3>Exploring Flight Delays and Cancellations</h3>
                 <p>Analyzed data from over 100,000 flights to uncover trends in delay and cancellation patterns. Developed visualizations to present insights on delays and cancellations.</p>
-                <a href="https://github.com/your-github-repo" class="btn">View on GitHub</a>
+                <a href="https://github.com/your-github-repo" class="btn btn-primary">View on GitHub</a>
             </div>
             <div class="project">
                 <h3>DNA Classification</h3>
-                <p>Extracted DNA dataset, conducted pre-processing, and developed machine learning algorithms to classify DNA sequences. Conducted comparative analysis to assess the superior model.</p>
-                <a href="https://github.com/your-github-repo" class="btn">View on GitHub</a>
+                <p>Extracted DNA dataset, conducted pre-processing, and developed machine learning algorithms (Naïve Bayes, SVM, Neural Networks, KNN, Random Forest, Decision Tree) to classify DNA sequences.</p>
+                <a href="https://github.com/your-github-repo" class="btn btn-primary">View on GitHub</a>
             </div>
             <div class="project">
                 <h3>Boston Transportation System</h3>
-                <p>Developed a relational database for Boston Transportation, optimizing data structures for efficient query processing and real-time data features.</p>
-                <a href="https://github.com/your-github-repo" class="btn">View on GitHub</a>
+                <p>Developed a relational database for the Boston Transportation System, optimizing data structures for efficient query processing and implementing real-time data features.</p>
+                <a href="https://github.com/your-github-repo" class="btn btn-primary">View on GitHub</a>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="text-center py-4 bg-dark text-white">
         <p>&copy; 2024 Nagapriyatham Pindi. All rights reserved.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrap.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
