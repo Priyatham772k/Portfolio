@@ -1,55 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background-color: #f8f9fa;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 #intro {
-    text-align: center;
-    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.jpg'); /* Add your background image here */
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-#intro img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+#intro h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+#intro p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 #intro .btn {
-    display: inline-block;
-    margin: 1rem;
-    padding: 0.5rem 1rem;
-    background: #333;
-    color: #fff;
-    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
+    background-color: #343a40;
     color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
