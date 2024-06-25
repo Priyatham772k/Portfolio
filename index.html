@@ -5,31 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nagapriyatham Pindi | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Nagapriyatham Pindi</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Nagapriyatham Pindi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="intro">
-            <img src="profile.jpg" alt="Nagapriyatham Pindi">
-            <h2>Welcome to My Portfolio</h2>
-            <p>Explore my projects and experiences in the field of data science and software development.</p>
-            <a href="Resume05.pdf" class="btn">Download Resume</a>
-            <a href="https://www.linkedin.com/in/nagapriyatham-pindi/" class="btn">LinkedIn</a>
-            <a href="https://github.com/your-github-profile" class="btn">GitHub</a>
+        <section id="intro" class="text-center">
+            <div class="container">
+                <h1>Hello! I'm Nagapriyatham Pindi</h1>
+                <p>A Data Scientist and Software Developer</p>
+                <a href="https://www.linkedin.com/in/nagapriyatham-pindi/" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/your-github-profile" class="btn btn-secondary">GitHub</a>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="text-center py-4 bg-dark text-white">
         <p>&copy; 2024 Nagapriyatham Pindi. All rights reserved.</p>
     </footer>
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
