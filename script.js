@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const introSubtext = document.getElementById('intro-subtext');
     
     const text = "Hello! I'm Nagapriyatham Pindi";
-    const subtext = "A Data Scientist and Software Developer";
+    const subtext = "A Data Geek and Fitness Enthusiast";
 
     let index = 0;
     let subIndex = 0;
