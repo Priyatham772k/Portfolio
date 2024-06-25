@@ -1,12 +1,12 @@
 body {
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Special Elite', cursive;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
 }
 
 .transparent-navbar {
-    background-color: rgba(0, 0, 0, 1) !important;
+    background-color: rgba(0, 0, 0, 0.0) !important;
     border: none;
 }
 
@@ -42,7 +42,7 @@ body {
 .intro-content h1, .intro-content p {
     white-space: nowrap;
     overflow: hidden;
-    font-size: 3rem; /* Adjust size as needed */
+    font-size: 2rem; /* Adjust size as needed */
     border-right: none;
     animation: typing 3.5s steps(40, end);
 }
