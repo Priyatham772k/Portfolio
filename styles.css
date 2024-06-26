@@ -6,11 +6,11 @@ body {
 }
 
 .transparent-navbar {
-    background-color: rgba(0, 0, 0, 0) !important; /* Fully transparent background */
+    background-color: transparent !important; /* Fully transparent background */
     border: none;
 }
 
-.navbar-nav .nav-link, .navbar-brand {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand {
     color: #fff !important; /* Ensure links and brand text are white */
 }
 
