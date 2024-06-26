@@ -6,8 +6,9 @@ body {
 }
 
 .transparent-navbar {
-    background-color: transparent !important; /* Fully transparent background */
+    background-color: rgba(0, 0, 0, 0) !important; /* Fully transparent background */
     border: none;
+    color: #fff !important; /* Ensure text color is white */
 }
 
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand {
