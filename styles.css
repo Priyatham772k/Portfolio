@@ -10,9 +10,7 @@ body {
     border: none;
 }
 
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand {
-    color: #fff !important; /* Ensure links and brand text are white */
-}
+
 
 #intro {
     position: relative;
